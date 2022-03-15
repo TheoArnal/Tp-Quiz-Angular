@@ -4,7 +4,11 @@ module.exports = {
     maxWidth: {
       '1/4': '25%',
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary : "#28592B"
+      }
+    },
   },
   plugins: [],
  };

@@ -5,59 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-      <div class="justify-center items-center w-full md:flex md:w-auto md:order-1 bg-[#28592B]">
-        <img class="pt-4 w-25 max-w-[15%]" src="https://cdn.discordapp.com/attachments/940542655945912382/950677911688585236/Logo_Ecotrics_Blanc.png" alt="logo">
-      </div>
-      <!-- Navbar goes here -->
-		<nav class="bg-[#28592B] shadow-lg">
-			<div class="max-w-[100%] mx-auto px-4">
-				<div class="flex justify-evenly">
-					<div class="flex space-x-7 justify-evenly">
-						<!-- Primary Navbar items -->
-						<div class="hidden md:flex text-2xl">
-							<a href="" class="py-4 px-2 text-white font-semibold ">Acceuil</a>
-							<a href="" class="py-4 px-2 text-white font-semibold transition duration-300">Jeu</a>
-							<a href="" class="py-4 px-2 text-white font-semibold transition duration-300">Tips</a>
-						</div>
-					</div>
-					<!-- Mobile menu button -->
-					<div class="md:hidden flex items-center">
-						<button class="outline-none mobile-menu-button">
-						<svg class=" w-6 h-6 text-white"
-							x-show="!showMenu"
-							fill="none"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path d="M4 6h16M4 12h16M4 18h16"></path>
-						</svg>
-					</button>
-					</div>
-				</div>
-			</div>
-			<!-- mobile menu -->
-			<div class="hidden mobile-menu">
-				<ul class="">
-					<li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-[#28592B] font-semibold">Acceuil</a></li>
-					<li><a href="#services" class="block text-sm px-2 py-4 hover:bg-[#28592B] transition duration-300">Jeu</a></li>
-					<li><a href="#about" class="block text-sm px-2 py-4 hover:bg-[#28592B] transition duration-300">Tips</a></li>
-				</ul>
-			</div>
-			<script>
-				const btn = document.querySelector("button.mobile-menu-button");
-				const menu = document.querySelector(".mobile-menu");
 
-				btn.addEventListener("click", () => {
-					menu.classList.toggle("hidden");
-				});
-			</script>
-		</nav>
-  </header>
+<app-header></app-header>
+
+<body>
   <router-outlet></router-outlet>
 </body>
+
+<app-footer></app-footer>
+
 </html>
