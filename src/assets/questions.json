@@ -3,13 +3,13 @@
     "question": "Quelle serait la température de la Terre sans atmosphère ?",
     "answers": ["15 °C", "0°C", "-50°C", "-18°C"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "Quel gaz a l'effet de serre le plus puissant ?",
     "answers": ["CO2", "Vapeur D'eau", "Méthane", "Argon"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "Où va la majorité du CO2 émis par l'Homme ?",
@@ -20,7 +20,7 @@
       "Sous la perruque de Donald T."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "En hiver et à quantité égale, lequel de ces aliments émet le plus de CO2 ?",
@@ -31,7 +31,7 @@
       "Le café colombien"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "Aux États-Unis, la qualité de l'air est-elle meilleure ou moins bonne qu'il y a 20 ans ?",
@@ -42,7 +42,7 @@
       "Il n'y a plus d'air aux USA"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "Quand le GIEC a-t-il assuré que le réchauffement climatique était d’origine humaine ?",
@@ -53,13 +53,13 @@
       "2014, en vue de la COP21 en 2015 à Paris"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "Quel pays a le plus d'émissions de gaz à effet de serre par habitant ?",
     "answers": ["Les États-Unis", "L'Australie", "La Norvège", "Le Japon"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "La production d'énergie est notre source principale d'émissions de CO2. Quelle est la seconde ?",
@@ -70,7 +70,7 @@
       "Le Burning Man"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "En matière de transport, quelle action aurait le plus d’impact ?",
@@ -81,13 +81,13 @@
       "Développer le télétravail"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "Si toute l’énergie que je consommais était d’origine humaine, combien me faudrait-il d’humains à mon service ?",
     "answers": ["2", "20", "200", "2000"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "En matière d’alimentation, quelle solution est la plus efficace ?",
@@ -98,7 +98,7 @@
       "Arrêtez le thon rouge"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "Quelle action me permettrait de diminuer le plus mon empreinte carbone ?",
@@ -109,7 +109,7 @@
       "Fermer les centrales à énergie carbonée"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "Quelle action me permettrait de diminuer le plus mon empreinte carbone ?",
@@ -120,7 +120,7 @@
       "Eteindre les lumières en quittant une pièce"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "Où auront lieu les premiers impacts majeurs du changement climatique ?",
@@ -131,12 +131,12 @@
       "La distribution est égale"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   },
   {
     "question": "Par tes actions, la planète a pris 0.6 °C depuis le début du CarboQuiz. Le pire scenario du GIEC prévoit d’ici 2100 une augmentation de :",
     "answers": ["2°C", "5°C", "8°C", "12°C"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "This explanation is temporary"
   }
 ]
