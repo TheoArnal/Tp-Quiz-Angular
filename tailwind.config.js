@@ -1,12 +1,10 @@
-const { join } = require("path");
-const f = (glob) => join(__dirname, glob);
-
 module.exports = {
-  content: [
-    f("src/**/*.{ts,html}")
-  ],
+  content: ['./src/**/*.{html,ts}', './projects/**/*.{html,ts}'],
   theme: {
+    maxWidth: {
+      '1/4': '25%',
+    },
     extend: {},
   },
   plugins: [],
-}
+ };
