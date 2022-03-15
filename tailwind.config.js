@@ -1,14 +1,14 @@
 module.exports = {
-  content: ['./src/**/*.{html,ts}', './projects/**/*.{html,ts}'],
+  content: ["./src/**/*.{html,ts}", "./projects/**/*.{html,ts}"],
   theme: {
     maxWidth: {
-      '1/4': '25%',
+      "1/4": "25%",
     },
     extend: {
       colors: {
-        primary : "#28592B"
-      }
+        primary: "#28592B",
+      },
     },
   },
   plugins: [],
- };
+};
