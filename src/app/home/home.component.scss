@@ -1,0 +1,27 @@
+section {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+b {
+  margin: auto;
+  text-align: center;
+  font-family: 'Calibri Light';
+  color: green;
+  font-size: xx-large;
+}
+
+.game-container{
+  background-color: wheat;
+  cursor:pointer;
+  border-radius: 10px;
+}
+
+body{
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
