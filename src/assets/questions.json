@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Quelle serait la température de la Terre sans atmosphère ?",
+    "answers": ["15 °C", "0°C", "-50°C", "-18°C"],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Quel gaz a l'effet de serre le plus puissant ?",
+    "answers": ["CO2", "Vapeur D'eau", "Méthane", "Argon"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Où va la majorité du CO2 émis par l'Homme ?",
+    "answers": [
+      "Dans l'atmosphère",
+      "Dans l'océan",
+      "Dans la biomasse",
+      "Sous la perruque de Donald T."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "En hiver et à quantité égale, lequel de ces aliments émet le plus de CO2 ?",
+    "answers": [
+      "Banane de Martinique",
+      "Tomates d'Espagne",
+      "Le rutabaga picard",
+      "Le café colombien"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Aux États-Unis, la qualité de l'air est-elle meilleure ou moins bonne qu'il y a 20 ans ?",
+    "answers": [
+      "Meilleure",
+      "Moins bonne",
+      "Au même niveau",
+      "Il n'y a plus d'air aux USA"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Quand le GIEC a-t-il assuré que le réchauffement climatique était d’origine humaine ?",
+    "answers": [
+      "1988, dès sa création",
+      "2001, le 11 septembre précisément",
+      "2007, s’appuyant sur la multiplication des phénomènes climatiques extrêmes",
+      "2014, en vue de la COP21 en 2015 à Paris"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "Quel pays a le plus d'émissions de gaz à effet de serre par habitant ?",
+    "answers": ["Les États-Unis", "L'Australie", "La Norvège", "Le Japon"],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "La production d'énergie est notre source principale d'émissions de CO2. Quelle est la seconde ?",
+    "answers": [
+      "La déforestation",
+      "L'activité volcanique",
+      "Les flatulences de vaches",
+      "Le Burning Man"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "En matière de transport, quelle action aurait le plus d’impact ?",
+    "answers": [
+      "Lancer un grand plan pour favoriser les vélos taxis",
+      "Améliorer l’efficience des avions",
+      "Construire un réseau global de trains à grande vitesse",
+      "Développer le télétravail"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Si toute l’énergie que je consommais était d’origine humaine, combien me faudrait-il d’humains à mon service ?",
+    "answers": ["2", "20", "200", "2000"],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "question": "En matière d’alimentation, quelle solution est la plus efficace ?",
+    "answers": [
+      "Manger moins de viande",
+      "Installer des foyers de cuisson « propres » dans les pays en développement",
+      "Mettre en place une culture du riz plus efficiente et durable",
+      "Arrêtez le thon rouge"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Quelle action me permettrait de diminuer le plus mon empreinte carbone ?",
+    "answers": [
+      "Faire pousser nos légumes",
+      "Arrêter la déforestation",
+      "Retirer les véhicules à essence",
+      "Fermer les centrales à énergie carbonée"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "question": "Quelle action me permettrait de diminuer le plus mon empreinte carbone ?",
+    "answers": [
+      "Baisser de 1°C la consigne de chauffage",
+      "Reporter d’un an l’achat d’un nouveau smartphone",
+      "Consommer un repas par semaine sans viande",
+      "Eteindre les lumières en quittant une pièce"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "question": "Où auront lieu les premiers impacts majeurs du changement climatique ?",
+    "answers": [
+      "Sur les tropiques",
+      "Sur les latitudes nord",
+      "Sur l'équateur",
+      "La distribution est égale"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "question": "Par tes actions, la planète a pris 0.6 °C depuis le début du CarboQuiz. Le pire scenario du GIEC prévoit d’ici 2100 une augmentation de :",
+    "answers": ["2°C", "5°C", "8°C", "12°C"],
+    "correctAnswer": 3,
+    "explanation": ""
+  }
+]
