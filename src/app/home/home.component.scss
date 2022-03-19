@@ -1,12 +1,14 @@
 section {
   display: flex;
   width: 50%;
-  height: 100%;
-  margin: auto;
+  height: auto;
+}
+
+logo-twitter{
+  text-align: center;
 }
 
 b {
-  margin: auto;
   text-align: center;
   font-family: 'Calibri Light';
   color: green;

@@ -1,18 +1,26 @@
-<div class="grid grid-cols-10 grid-rows-4 m-20 gap-20 ">
-  <div class="rounded-lg col-span-7 row-span-2" (click)="startGame()" style="background-color: wheat; cursor:pointer ">
-    <section>
-      <b style="font-family: 'Calibri Light'; color: green; font-size: xx-large" >À quel point es-tu éco ?</b>
+<div class="grid grid-cols-[7fr_3fr] grid-rows-[5fr_5fr] m-20 gap-20 ">
+  <div class="rounded-lg col-start-1 col-end-2 bg-red-200 h-96 bg-back-game bg-cover bg-center" (click)="startGame()" style="cursor: pointer;">
+    <section class="mx-auto mt-40">
+      <b class="mx-auto text-play" style="font-family: 'Calibri Light'; vertical-align: bottom; color: green; font-size: xx-large" >À quel point es-tu éco ?</b>
+    </section>
+    <section class="mx-auto mb-20">
+      <b class="mx-auto"><img src="assets/logo-play.png"></b>
     </section>
   </div>
-  <div class="row-span-4 rounded-lg col-span-3 text-justify " style="background-color: green " >
-    <div style="height: 100%; margin: 10px; background-color: aliceblue; border-radius: 10px;">
-      <p></p>
+
+  <div class="rounded-lg row-[1/-1] col-start-2 col-end-3">
+    <div class="h-16 flex justify-center">
+      <img src="assets/icons8-twitter.svg">
+    </div>
+    <div class="h-auto mx-5 mb-5 rounded-lg h-full ">
+      <ngx-twitter-timeline
+        [source]="{sourceType: 'profile', screenName: 'WWFFrance'}"
+        [options]="{height: '750'}" (onLoad)="onLoad($event)">
+      </ngx-twitter-timeline>
     </div>
   </div>
-  <div class="rounded-lg col-span-7 row-span-2" style="background-color: green ">
-    <section>
-      <p>Tips</p>
-    </section>
+
+  <div class="rounded-lg bg-red-200 col-start-1">
   </div>
 </div>
 

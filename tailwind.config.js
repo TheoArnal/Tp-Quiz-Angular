@@ -4,6 +4,9 @@ module.exports = {
     maxWidth: {
       '1/4': '25%',
     },
+    backgroundImage: {
+      'back-game': "url('assets/img_fond.png')",
+    },
     extend: {},
   },
   plugins: [],

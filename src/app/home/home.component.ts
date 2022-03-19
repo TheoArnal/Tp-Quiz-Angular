@@ -15,4 +15,8 @@ export class HomeComponent implements OnInit {
   startGame() {
     console.log('Start Game');
   }
+
+  onLoad($event: any) {
+    
+  }
 }
