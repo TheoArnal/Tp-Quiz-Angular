@@ -1,13 +1,17 @@
-<div class="h-full flex flex-col content-center items-center color">
+<div class="h-full flex flex-col md:flex-row content-center items-center color">
   <button class="m-auto p-2 hidden md:block" (click)="moveCursor('backward')"><--</button>
-  <div class="drop-shadow-2xl h-2/3 w-3/4 m-auto flex justify-center items-center text-xl
-   bg-center bg-white rounded-xl bg-cover"
-       [style.background-image]="currentBg">
-    <p class="w-1/2 text-center flex flex-col">{{generated[currentCardIndex]}}</p>
-  </div>
-  <div class="flex pb-10 gap-4">
-    <button class="m-auto p-2 block md:hidden" (click)="moveCursor('backward')"><--</button>
-    <button class="m-auto p-2 block md:hidden" (click)="moveCursor('forward')">--></button>
+
+<!--  <div class="drop-shadow-2xl h-2/3 w-3/4 m-auto flex justify-center items-center text-xl-->
+<!--   bg-center bg-white rounded-xl bg-cover"-->
+<!--       [style.background-image]="currentBg">-->
+<!--    <p class="w-1/2 text-center flex flex-col">{{generated[currentCardIndex]}}</p>-->
+<!--  </div>-->
+
+  <app-tip [tipText]="generated[currentCardIndex]" class="h-2/3 w-3/4 m-auto"></app-tip>
+
+  <div class="flex pb-10 gap-4 block md:hidden">
+    <button class="m-auto p-2" (click)="moveCursor('backward')"><--</button>
+    <button class="m-auto p-2" (click)="moveCursor('forward')">--></button>
   </div>
   <button class="m-auto p-2 hidden md:block" (click)="moveCursor('forward')">--></button>
 </div>
