@@ -1,0 +1,9 @@
+<div class="h-[90vh] flex content-center items-center color">
+  <button class="m-auto p-2" (click)="moveCursor('backward')"><--</button>
+  <div class="drop-shadow-2xl h-2/3 w-3/4 m-auto flex justify-center items-center text-xl
+   bg-center bg-white rounded-xl bg-cover"
+  [style.background-image]="currentBg">
+    <p class="w-1/2 text-center">{{generated[currentCardIndex]}}</p>
+  </div>
+  <button class="m-auto p-2" (click)="moveCursor('forward')">--></button>
+</div>

@@ -1,5 +1,9 @@
 module.exports = {
-  content: ["./src/**/*.{html,ts}", "./projects/**/*.{html,ts}"],
+  content: [
+    "./src/**/*.{html,ts}",
+    "./projects/**/*.{html,ts}",
+    "src/assets/*",
+  ],
   theme: {
     maxWidth: {
       "1/4": "25%",
