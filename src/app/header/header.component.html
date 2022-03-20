@@ -4,18 +4,10 @@
 	</div>
 	<!-- Navbar goes here -->
 	  <nav class="bg-[#28592B] shadow-lg">
-		  <div class="mx-auto px-4 w-full">
-			  <div class="flex justify-evenly w-full">
-				  <div class="flex space-x-7 justify-evenly w-full md:w-1/2">
-					  <!-- Primary Navbar items -->
-					  <div class="flex text-2xl w-full justify-evenly">
-						  <a href="" class="py-4 px-2 text-white font-semibold uppercase">{{ header_first }}</a>
-						  <a href="" class="py-4 px-2 text-white font-semibold uppercase">{{ header_second }}</a>
-						  <a href="" class="py-4 px-2 text-white font-semibold uppercase">{{ header_third }}</a>
-					  </div>
-				  </div>
-			  </div>
-		  </div>
-
+      <div class="md:w-1/2 w-full m-auto flex justify-center gap-2 text-center">
+        <a routerLink="" class="py-4 px-2 text-white font-semibold uppercase flex-1">{{ header_first }}</a>
+        <a routerLink="game" class="py-4 px-2 text-white font-semibold uppercase flex-1">{{ header_second }}</a>
+        <a routerLink="tips" class="py-4 px-2 text-white font-semibold uppercase flex-1">{{ header_third }}</a>
+      </div>
 	  </nav>
 </header>
