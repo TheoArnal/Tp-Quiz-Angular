@@ -1,18 +1,20 @@
-<div class="grid grid-cols-10 grid-rows-4 m-20 gap-20 ">
-  <div class="rounded-lg col-span-7 row-span-2" (click)="startGame()" style="background-color: wheat; cursor:pointer ">
-    <section>
-      <b style="font-family: 'Calibri Light'; color: green; font-size: xx-large" >À quel point es-tu éco ?</b>
-    </section>
-  </div>
-  <div class="row-span-4 rounded-lg col-span-3 text-justify " style="background-color: green " >
-    <div style="height: 100%; margin: 10px; background-color: aliceblue; border-radius: 10px;">
-      <p></p>
+<div class="h-[100vh] grid grid-cols-1 md:grid-cols-[minmax(0,_8fr)_minmax(0,_4fr)] gap-4 m-4">
+  <div id="main-content" class="flex flex-col">
+    <div id="play-btn" class="flex justify-center items-center flex-1 ">
+      <div class="bg-leaves-circle h-full w-full bg-center bg-cover font-extrabold text-primary flex flex-col
+      justify-center items-center text-[2rem] lg:text-[3rem] text-center p-2 m-2 rounded-2xl">
+        <p>A quel point es-tu écolo ?</p>
+        <fa-icon [icon]="playBtn"></fa-icon>
+      </div>
+    </div>
+    <div id="tips" class="flex flex-col flex-1 gap-2 rounded-2xl bg-primary m-2">
+      <div class="flex-1">Tip 1</div>
+      <div class="flex-1">Tip 2</div>
     </div>
   </div>
-  <div class="rounded-lg col-span-7 row-span-2" style="background-color: green ">
-    <section>
-      <p>Tips</p>
-    </section>
+
+  <div id="feed_twitter" class="bg-white rounded-2xl">
+    Twitter
   </div>
 </div>
 

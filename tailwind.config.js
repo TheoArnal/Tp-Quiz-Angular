@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         primary: "#28592B",
       },
+      backgroundImage: {
+        'leaves-circle': "url('assets/play-btn-bg.png')"
+      }
     },
   },
   plugins: [],

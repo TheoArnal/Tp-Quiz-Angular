@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { TipsComponent } from './tips/tips.component';
 import { TipComponent } from './tips/tip/tip.component';
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 
 @NgModule({
   declarations: [
@@ -20,9 +21,10 @@ import { TipComponent } from './tips/tip/tip.component';
     TipsComponent,
     TipComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
 
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+}
