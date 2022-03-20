@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faPlay,  } from '@fortawesome/free-solid-svg-icons'
+import { faPlay } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-home',
