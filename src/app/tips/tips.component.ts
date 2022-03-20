@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { getRandomArrayElement } from "../../utils/array-utils";
+import { Subject } from "rxjs";
 
 @Component({
   selector: 'app-tips',
@@ -12,7 +13,6 @@ export class TipsComponent implements OnInit {
 
   generated: string[] = [];
   currentCardIndex = 0;
-  // currentBg!: string;
 
   tips = [
     "Ne mets pas ton doigt dans la friteuse",
@@ -25,21 +25,15 @@ export class TipsComponent implements OnInit {
   //   "feuilles-vertes-carres-06.png",
   // ]
 
+  loadNewTip = new Subject<void>()
+
   ngOnInit(): void {
     this.generated.push(getRandomArrayElement(this.tips))
-    // this.getRandomBg()
-    console.log(this.generated);
   }
 
 
-  // getRandomBg = () => {
-  //   const bg = getRandomArrayElement(
-  //     this.backgrounds.filter((it) => ((this.currentBg?.indexOf(it) ?? -1) === -1))
-  //   );
-  //   this.currentBg = `url(assets/${bg})`
-  // }
-
   moveCursor(direction: 'forward' | 'backward') {
+    this.loadNewTip.next()
     // this.getRandomBg()
     this.currentCardIndex += direction === 'forward' ? 1 : -1;
     if (this.currentCardIndex === this.generated.length) {

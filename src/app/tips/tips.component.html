@@ -7,7 +7,7 @@
 <!--    <p class="w-1/2 text-center flex flex-col">{{generated[currentCardIndex]}}</p>-->
 <!--  </div>-->
 
-  <app-tip [tipText]="generated[currentCardIndex]" class="h-2/3 w-3/4 m-auto"></app-tip>
+  <app-tip [reload]="loadNewTip.asObservable()" class="h-2/3 w-3/4 m-auto"></app-tip>
 
   <div class="flex pb-10 gap-4 block md:hidden">
     <button class="m-auto p-2" (click)="moveCursor('backward')"><--</button>
