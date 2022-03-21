@@ -38,7 +38,9 @@ export class GameComponent implements OnInit {
   }
 
   onNextQuestion(): void {
-    this.questionIdx++;
+    if (this.answered) {
+      this.questionIdx++;
+    }
   }
 
   constructor(private httpClient: HttpClient) {
