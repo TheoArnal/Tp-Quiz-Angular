@@ -55,10 +55,10 @@ export class GameComponent implements OnInit {
       return 'Bravo!';
     }
     if (coeffecient >= 60) {
-      return 'Bof!';
+      return 'Pas mal!';
     }
     if (coeffecient >= 40) {
-      return 'Pas mal!';
+      return 'Bof!';
     }
     if (coeffecient >= 20) {
       return 'Dommage!';
