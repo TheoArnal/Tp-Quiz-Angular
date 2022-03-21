@@ -13,8 +13,9 @@ module.exports = {
         primary: "#28592B",
       },
       backgroundImage: {
-        'leaves-circle': "url('assets/play-btn-bg.png')"
-      }
+        "leaves-circle": "url('assets/play-btn-bg.png')",
+        "game-leaves": "url('assets/game_bg.png')",
+      },
     },
   },
   plugins: [],
