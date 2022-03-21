@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { IGameQuestion } from './game.interface';
-// import questions from '../../assets/questions.json';
 
 @Component({
   selector: 'app-game',
@@ -11,6 +10,7 @@ import { IGameQuestion } from './game.interface';
 export class GameComponent implements OnInit {
   questions: IGameQuestion[] = [];
   questionIdx: number = 0;
+  correctCounter: number = 0;
   answeredQuestions: number[] = []; // we stock this, but won't use it. It will be useful in case we add some kind of tracking, that allows us to see what questions have been answered correctly the most, etc...
 
   get answered() {
@@ -29,12 +29,41 @@ export class GameComponent implements OnInit {
     return this.questionIdx === this.questions.length - 1;
   }
 
+  get isFinished(): boolean {
+    return this.questionIdx === this.questions.length;
+  }
+
   onAnswer(answer: string): void {
     if (!this.answered) {
       const answerIdx =
         this.questions[this.questionIdx].answers.indexOf(answer);
       this.answeredQuestions.push(answerIdx);
+      if (answerIdx === this.currentQuestion.correctAnswer) {
+        this.correctCounter++;
+      }
     }
+  }
+
+  get successMessage() {
+    const coeffecient = Math.round(
+      (this.correctCounter / this.questions.length) * 100
+    );
+    if (coeffecient === 100) {
+      return 'Perfect!';
+    }
+    if (coeffecient >= 80) {
+      return 'Bravo!';
+    }
+    if (coeffecient >= 60) {
+      return 'Bof!';
+    }
+    if (coeffecient >= 40) {
+      return 'Pas mal!';
+    }
+    if (coeffecient >= 20) {
+      return 'Dommage!';
+    }
+    return 'Reesayez!';
   }
 
   onNextQuestion(): void {
