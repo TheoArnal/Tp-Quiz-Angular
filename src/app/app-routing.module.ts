@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'game', component: GameComponent },
   { path: 'tips', component: TipsComponent },
+  { path: '**', redirectTo: '', pathMatch:'full'}
 ];
 
 @NgModule({
