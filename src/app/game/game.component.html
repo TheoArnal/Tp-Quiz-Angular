@@ -36,10 +36,10 @@
 
     <!-- Post-question -->
     <div
-      class="absolute inset-0 rounded-lg p-4 bg-game-leaves bg-cover transition-all bg-center delay-1000 flex flex-col justify-center items-center"
+      class="absolute inset-0 rounded-lg p-4 bg-game-leaves bg-cover transition-all bg-center flex flex-col justify-center items-center"
       [ngClass]="{
         'opacity-0 select-none invisible': !answered,
-        'opacity-100': answered
+        'opacity-100 delay-1000 ': answered
       }"
       *ngIf="!isFinished"
     >
