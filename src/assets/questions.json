@@ -4,5 +4,139 @@
     "correctAnswer": 3,
     "explanation": "Sans l'atmosphère et donc l'effet de serre, la température de la terre serait de - 18°C.",
     "question": "Quelle serait la température de la Terre sans atmosphère ?"
+  },
+  {
+    "answers": ["CO2", "Vapeur D'eau", "Méthane", "Argon"],
+    "correctAnswer": 1,
+    "explanation": "C'est la vapeur d’eau qui contribue pour 60 % à l’effet de serre. Les émissions de ce gaz par l’humanité à travers l’industrie n’ont cependant qu’un effet limité car la durée de vie de la vapeur d’eau est courte.",
+    "question": "Quel gaz a l'effet de serre le plus puissant ?"
+  },
+  {
+    "answers": [
+      "Dans l'atmosphère",
+      "Dans l'océan",
+      "Dans la biomasse",
+      "Sous la perruque de Donald T."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Plus de 50% est encore absorbé par l'atmosphère, et Donald n'est pour rien là dedans.",
+    "question": "Où va la majorité du CO2 émis par l'Homme ?"
+  },
+  {
+    "answers": [
+      "Banane de Martinique",
+      "Tomates d'Espagne",
+      "Le rutabaga picard",
+      "Le café colombien"
+    ],
+    "correctAnswer": 1,
+    "explanation": "À quantité égale, produire une tomate en hiver génère aujourd'hui plus de C02 que le transport des autres aliments...",
+    "question": "En hiver et à quantité égale, lequel de ces aliments émet le plus de CO2 ?"
+  },
+  {
+    "answers": [
+      "Meilleure",
+      "Moins bonne",
+      "Au même niveau",
+      "Il n'y a plus d'air aux USA"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elle est meilleure. En grande partie grâce aux amendements apportés à la loi sur l’air pur en 1990, qui ont réduit les émissions de l'industrie et des sources mobiles (ex : voitures).",
+    "question": "Aux États-Unis, la qualité de l'air est-elle meilleure ou moins bonne qu'il y a 20 ans ?"
+  },
+  {
+    "answers": [
+      "1988, dès sa création",
+      "2001, le 11 septembre précisément",
+      "2007, s’appuyant sur la multiplication des phénomènes climatiques extrêmes",
+      "2014, en vue de la COP21 en 2015 à Paris"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C’est en 2007, que les experts du GIEC assurent qu’il y a 90 % de chance que l’Homme soit responsable du changement climatique.",
+    "question": "Quand le GIEC a-t-il assuré que le réchauffement climatique était d’origine humaine ?"
+  },
+  {
+    "answers": ["Les États-Unis", "L'Australie", "La Norvège", "Le Japon"],
+    "correctAnswer": 1,
+    "explanation": "C'est l'Australie, pays peu peuplé, isolé, importateur et encore très dépendant des énergies fossiles...",
+    "question": "Quel pays a le plus d'émissions de gaz à effet de serre par habitant ?"
+  },
+  {
+    "answers": [
+      "La déforestation",
+      "L'activité volcanique",
+      "Les flatulences de vaches",
+      "Le Burning Man"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Il s'agit de la déforestation, qui représente aujourd'hui environ 15% de nos émissions.",
+    "question": "La production d'énergie est notre source principale d'émissions de CO2. Quelle est la seconde ?"
+  },
+  {
+    "answers": [
+      "Lancer un grand plan pour favoriser les vélos taxis",
+      "Améliorer l’efficience des avions",
+      "Construire un réseau global de trains à grande vitesse",
+      "Développer le télétravail"
+    ],
+    "correctAnswer": 1,
+    "explanation": "C'est l'efficience des avions ! Le transport aérien reste l'une des sources majeures de notre empreinte carbone, selon les scientifiques du projet \"Drawdown\".",
+    "question": "En matière de transport, quelle action aurait le plus d’impact ?"
+  },
+  {
+    "answers": ["2", "20", "200", "2000"],
+    "correctAnswer": 2,
+    "explanation": "200 humains seraient nécessaires...c'est l'argument repris par de nombreux adeptes de la décroissance !",
+    "question": "Si toute l’énergie que je consommais était d’origine humaine, combien me faudrait-il d’humains à mon service ?"
+  },
+  {
+    "answers": [
+      "Manger moins de viande",
+      "Installer des foyers de cuisson « propres » dans les pays en développement",
+      "Mettre en place une culture du riz plus efficiente et durable",
+      "Arrêtez le thon rouge"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Manger moins de viande serait la solution la plus efficace selon les scientifiques du projet \"Drawdown\".",
+    "question": "En matière d’alimentation, quelle solution est la plus efficace ?"
+  },
+  {
+    "answers": [
+      "Faire pousser nos légumes",
+      "Arrêter la déforestation",
+      "Retirer les véhicules à essence",
+      "Fermer les centrales à énergie carbonée"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Il vaut mieux fermer les centrales à énergie carbonée : la production d'énergie reste le principal émetteur de GES.",
+    "question": "Quelle action me permettrait de diminuer le plus mon empreinte carbone ?"
+  },
+  {
+    "answers": [
+      "Baisser de 1°C la consigne de chauffage",
+      "Reporter d’un an l’achat d’un nouveau smartphone",
+      "Consommer un repas par semaine sans viande",
+      "Eteindre les lumières en quittant une pièce"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Il nous faudrait baisser la consigne de chauffage. Mais sois libre de suivre les autres suggestions, ça ne fera pas de mal...",
+    "question": "Quelle action me permettrait de diminuer le plus mon empreinte carbone ?"
+  },
+  {
+    "answers": [
+      "Sur les tropiques",
+      "Sur les latitudes nord",
+      "Sur l'équateur",
+      "La distribution est égale"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Les modèles du GIEC s’accordent à montrer que les augmentations moyennes de T° vont être nettement plus importantes dans les hautes latitudes de l’hémisphère Nord.",
+    "question": "Où auront lieu les premiers impacts majeurs du changement climatique ?"
+  },
+  {
+    "answers": ["2°C", "5°C", "8°C", "12°C"],
+    "correctAnswer": 3,
+    "explanation": "La Terre serait difficilement vivable...mais ça reste le pire scénario dans lequel nous nous accorderions à vraiment faire n'importe quoi.",
+    "question": "Par tes actions, la planète a pris 0.6 °C depuis le début du CarboQuiz. Le pire scenario du GIEC prévoit d’ici 2100 une augmentation de :"
   }
 ]
